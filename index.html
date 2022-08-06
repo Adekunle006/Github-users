@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <title>github-users</title>
+</head>
+
+<body class="body">
+
+    <!--head-->
+
+    <section class="head">
+        <div class="container flex">
+
+            <h2>devfinder</h2>
+
+            <div class="flex">
+                <div class="flex">
+                <p id="dark-text">Dark</p>
+                <i class="fas fa-moon fa-2x" id="dark-icon"></i>
+            </div>
+            
+        <div class="flex">
+       <p id="light-text" style="display: none;">light</p>
+       <i class="fas fa-lightbulb fa-2x" id="light-icon" style="display: none;"></i>
+        </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!--search-->
+
+    <section class="search">
+
+        <div class="container">
+
+        <div class="flex">
+       <i class="fas fa-search fa-2"></i>
+        <input class="card input" type="text" placeholder="search Github username">
+        <button class="btn">search</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--result-->
+
+    <section class="result">
+
+    <div class="container ">
+    
+    <div class="card" id="result">
+
+    <div class="profile  flex">
+
+        <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="">
+
+        <div>
+            <h2>The Octocat</h2>
+            <p style="color:#1c3fa4;">@octocat</p>
+            <p>Join 25 Jan 2011</p>
+        </div>
+
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum incidunt quidem autem. Consequuntur, distinctio? Fuga excepturi qui ipsum! 
+            Expedita illum consectetur provident et eos in tenetur magnam! Sed, vero facilis.</p>
+    </div>
+
+    <div class="acct flex card" style="background-color: rgba(115, 115, 115, 0.26) ;  margin: 15px 0;">
+     
+        <div>
+            <p>Repos</p>
+            <p>8</p>
+        </div>
+
+
+        <div>
+            <p>Followers</p>
+            <p>3958</p>
+        </div>
+
+        <div>
+            <p>following</p>
+            <p>9</p>
+        </div>
+
+    </div>
+
+    <div class="links">
+
+        <div class="flex-link">
+            <i class="fas fa-home fa-2x"></i>
+            <p>Fransisco</p>
+        </div>
+
+        <div class="flex-link">
+            <i class="fas fa-link fa-2x"></i>
+            <p>https://github/octocat.com</p>
+        </div>
+
+        <div class="flex-link">
+            <i class="fab fa-twitter fa-2x"></i>
+            <p>Not available</p>
+        </div>
+
+        <div class="flex-link">
+            <i class="fas fa-book fa-2x" ></i>
+            <p>http://www.jsjj/example/@github</p>
+        </div>
+
+    </div>
+
+      </div>
+
+    </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
